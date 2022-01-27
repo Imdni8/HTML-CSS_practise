@@ -1,0 +1,154 @@
+/* fonts */
+/* font-family: 'Lora', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+body {
+    margin: 0;
+}
+
+/* typography */
+
+.site-logo h1 {
+    margin-bottom: 0;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #143774;
+}
+
+.site-logo p {
+    margin-top: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #1792D2;
+    font-kerning: normal;
+    text-transform: uppercase;
+    font-size: .85rem;
+}
+
+.nav a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #717171;
+    text-transform: uppercase;
+    font-size: .7rem;
+    text-decoration: none;
+}
+
+.post-info {
+    color: #707070;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .5rem;
+}
+
+.post-title {
+    color: #143774;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.post-body {
+    color: #707070;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.link2article {
+    color: #1792D2;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: .3rem;
+    text-decoration: none;
+}
+
+.link2article:hover {
+    text-decoration: underline;
+}
+
+footer h3 {
+    margin-bottom: 0;
+}
+
+footer p {
+    margin-top: .4em;
+}
+
+/* setions */
+
+header {
+    padding: 3em;
+    background-color: #F8F8F8;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    /* border: 1px magenta solid; */
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+    /* border: 1px magenta solid; */
+}
+
+.nav li {
+    margin-left: 1em;
+    /* border: 1px magenta solid; */
+}
+
+.nav-current {
+    border-bottom: #717171;
+}
+
+section {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.three-cols {
+    width: 73%;
+}
+
+.one-col {
+    width: 23%;
+}
+
+footer {
+    text-align: center;
+    background-color: #143774;
+    padding: 2em;
+    margin-top: 4em;
+    color: #fff;
+}
+
+.featured-post {
+    border-bottom: black 1px solid;
+    padding: 2em 0;
+}
+
+.featured-post img {
+    max-width: 100%;
+}
+
+.other-posts {
+    display: flex;
+    margin: 2em 0;
+}
+
+.img-info img{
+    width: 150px;
+    padding: 1em 2em 1em 0;
+}
